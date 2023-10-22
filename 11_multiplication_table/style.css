@@ -24,7 +24,7 @@ body {
 .button {
   border: 1px solid gray;
   background-color: rgb(174, 179, 198);
-  width: 200px;
+  width: 20vw;
   border-radius: 3px;
   display: flex;
   flex-direction: row;
@@ -32,25 +32,4 @@ body {
   align-items: center;
   margin-left: 150px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.circle {
-  width: 20px;
-  height: 20px;
-  background-color: aquamarine;
-  display: inline-flex;
-  margin: 10px;
-  border-radius: 50%;
-}
-
-.orange {
-  background-color: blanchedalmond;
-}
-
-.red {
-  background-color: red;
-}
-
-.transparent {
-  background-color: transparent;
 }
