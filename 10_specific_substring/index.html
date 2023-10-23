@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checking for Substring</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Search for an substring</h2>
+      <label for="array">String:</label>
+      <input
+        type="text"
+        id="string"
+        value="JavaScript is a powerful language"
+      />
+      <label for="array">Element specific:</label>
+      <input type="text" id="substring" value="powerful" />
+      <button class="button" onclick="findSubstring()">Check substring</button>
+      <p id="output">Rezultatul aici:</p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
